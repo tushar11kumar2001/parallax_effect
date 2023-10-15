@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    perspective: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+ 
+}
+.container{
+    height: 100%;
+  
+   transform-style: preserve-3d;
+   position: relative;
+   z-index: -1;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    object-fit: cover;
+}
+.img1{
+    transform: translateZ(-50px) scale(6);
+}
+.img2{
+    transform:  translateZ(-10px) scale(2);
+}
+.container h1{
+    position: relative;
+    top: -200px;
+    font-size: 10rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+}
+section{
+    background-color: black;
+    color: white;
+}
+.bg{
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+.bg1{
+    background-image: url("jungle.jpeg");
+}
+.bg2{
+    background-image: url("himalaya.jpeg");
+}
+.bg3{
+    background-image: url("desert.jpeg");
+}
+p{
+    height: 100vh;
+    margin: auto;
+    padding: 60px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 5rem;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+.text{
+    font-size: 5rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    background-color: white;
+}
